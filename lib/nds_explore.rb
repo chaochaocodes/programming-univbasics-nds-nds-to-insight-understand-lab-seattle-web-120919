@@ -8,6 +8,9 @@ def pretty_print_nds(nds)
   pp nds
 end
 
+pretty_print_nds(nds)
+
+
 def print_first_directors_movie_titles
 director_index = 0
 while director_index < directors_database[0].length do
