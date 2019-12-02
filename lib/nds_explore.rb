@@ -17,5 +17,6 @@ def print_first_directors_movie_titles
       puts "#{title_string}\n"
       title_index += 1
     end
+    director_index += 1
   end 
-end
+end 
