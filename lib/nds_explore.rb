@@ -14,7 +14,7 @@ def print_first_directors_movie_titles
    if directors_database[director_index][:name] = "Stephen Spielberg"
    title_index = 0
     while title_index < directors_database[0][:movies].length do
-      title_string = directors_database[director_index][:movies][title_index]#[:title]
+      title_string = directors_database[0][:movies][title_index][:title]
       puts "#{title_string}\n"
       title_index += 1
     end
