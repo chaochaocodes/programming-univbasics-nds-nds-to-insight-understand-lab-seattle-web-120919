@@ -8,19 +8,17 @@ def pretty_print_nds(nds)
   pp nds
 end
 
-pretty_print_nds(directors_database)
-
 def print_first_directors_movie_titles
   director_index = 0
   while director_index < directors_database.length do
    if directors_database[director_index][:name] = "Stephen Spielberg"
    title_index = 0
     while title_index < directors_database[0][:movies].length do
-      title_string = directors_database[director_index][:movies][title_index][:title]
+      title_string = directors_database[director_index][:movies][title_index]#[:title]
       puts "#{title_string}\n"
       title_index += 1
     end
     end
   director_index += 1
   end
-end 
+end
