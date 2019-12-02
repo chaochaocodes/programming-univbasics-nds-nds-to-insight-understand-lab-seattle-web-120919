@@ -16,8 +16,9 @@ def print_first_directors_movie_titles
   element_index = 0
     while element_index < directors_database[director_index].length do
     title_string = directors_database[director_index][element_index]
-    puts "#{title_string}\n" 
+    puts "#{title_string}\n"
     element_index += 1
     end
   director_index += 1
   end
+end 
